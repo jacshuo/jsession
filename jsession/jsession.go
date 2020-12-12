@@ -1,31 +1,31 @@
 package jsession
 
-type jsession struct {
+type session struct {
 }
 
-type config struct {
+type sessionConfig struct {
 }
 
-func NewJSession() *jsession {
-	return &jsession{}
+func NewJSession() *session {
+	return &session{}
 }
 
 // Start starts the session
-func (s *jsession) Start() {
+func (s *session) Start() {
 
 }
 
 // Set sets the session
-func (s *jsession) Set(key string, value string) {
+func (s *session) Set(key string, value string) {
 
 }
 
 // Get gets the session
-func (s *jsession) Get(key string) string {
+func (s *session) Get(key string) string {
 	return ""
 }
 
 // Expire expires the session
-func (s *jsession) Expire() {
+func (s *session) Expire() {
 
 }
